@@ -59,14 +59,6 @@ Once preview is open:
 - .htm  
 - AMPscript inside HTML (`%%[ ]%%`, `%%=v()=%%`)  
 
----
-
-##  📸 Preview
-
-[Watch Full Demo](https://your-video-link.com)
-
----
-
 ## 💡 Example
 
 ```html

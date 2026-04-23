@@ -6,10 +6,18 @@
   "name": "html-amp-source-mapper",
   "displayName": "HTML AMP Source Mapper",
   "description": "Preview HTML + AMPscript with sync highlighting",
-  "version": "0.0.2",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.102.0"
   },
+  "repository": {
+      "type": "git",
+      "url": "https://github.com/styagi123/html-amp-source-mapper.git"
+    },
+    "homepage": "https://github.com/styagi123/html-amp-source-mapper",
+    "bugs": {
+      "url": "https://github.com/styagi123/html-amp-source-mapper/issues"
+    },
   "activationEvents": [
     "onCommand:ampMapper.openPreview"
   ],
