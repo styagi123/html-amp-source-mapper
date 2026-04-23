@@ -1,0 +1,48 @@
+{
+  "publisher": "sagartyagi", 
+  "author": {
+    "name": "Sagar"
+  },
+  "name": "html-amp-source-mapper",
+  "displayName": "HTML AMP Source Mapper",
+  "description": "Preview HTML + AMPscript with sync highlighting",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.102.0"
+  },
+  "activationEvents": [
+    "onCommand:ampMapper.openPreview"
+  ],
+  "main": "./out/extension.js",
+  "contributes": {
+   
+    "commands": [
+      {
+        "command": "ampMapper.togglePreview",
+        "title": "Preview HTML AMP",
+        "icon": {
+          "light": "resources/play-light.svg",
+          "dark": "resources/play-dark.svg"
+        }
+      }
+    ],
+
+     "menus": {
+  "editor/title": [
+    {
+      "command": "ampMapper.togglePreview",
+      "when": "resourceLangId == html",
+      "group": "navigation"
+    }
+  ]
+}
+  },
+  "scripts": {
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./"
+  },
+  "devDependencies": {
+    "@types/vscode": "^1.102.0",
+    "typescript": "^5.0.0"
+  }
+}
