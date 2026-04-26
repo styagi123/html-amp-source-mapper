@@ -7,6 +7,7 @@
   "displayName": "HTML AMP Source Mapper",
   "description": "Preview HTML + AMPscript with sync highlighting",
   "version": "0.0.4",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.102.0"
   },
